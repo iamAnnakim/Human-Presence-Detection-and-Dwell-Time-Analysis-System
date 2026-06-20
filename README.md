@@ -2,15 +2,15 @@
 
 ## Overview
 
-This project detects people in a video using YOLOv5 and calculates how long they remain visible.
+This project detects people in videos using YOLOv5 and analyzes how long they remain visible.
 
 ## Features
 
 - Person detection using YOLOv5
-- Presence event detection
-- Dwell time analysis
-- Result video generation
-- Text report generation
+- Entry and exit event detection
+- Dwell time calculation
+- Presence statistics generation
+- Annotated video output
 
 ## Technologies
 
@@ -19,6 +19,10 @@ This project detects people in a video using YOLOv5 and calculates how long they
 - PyTorch
 - YOLOv5
 
-## Usage
+## Output Metrics
 
-python main.py
+- Visit Count
+- Total Presence Time
+- Average Stay Time
+- Longest Stay Time
+- Shortest Stay Time
